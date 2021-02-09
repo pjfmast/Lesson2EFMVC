@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Lesson2EFMVC.Data {
-    public class TeamManagmentDBContext : DbContext {
+    public class TeamManagementDBContext : DbContext {
         public DbSet<Member> Members { get; set; }
         public DbSet<Team> Teams { get; set; }
 
