@@ -34,6 +34,7 @@ namespace Lesson2EFMVC.Controllers
             }
 
             var team = await _context.Teams
+                .Include(team => team.Enrolled)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (team == null)
             {
