@@ -15,7 +15,7 @@ namespace Lesson2EFMVC.Data {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             optionsBuilder.UseSqlServer(
-                @"Server=(localdb)\MSSQLLocalDB;Database=TeamManagementEF;Trusted_Connection=True;");
+                @"Server=(localdb)\MSSQLLocalDB;Database=TeamManagementEFMVC;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
