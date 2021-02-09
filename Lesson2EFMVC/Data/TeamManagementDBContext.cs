@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Lesson2EFMVC.Data {
-    public class TeamManagmentDBContext : DbContext {
-        public TeamManagmentDBContext(DbContextOptions<TeamManagmentDBContext> options) 
+    public class TeamManagementDBContext : DbContext {
+        public TeamManagementDBContext(DbContextOptions<TeamManagementDBContext> options) 
             : base(options){
         }
 

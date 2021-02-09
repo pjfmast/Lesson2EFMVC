@@ -23,7 +23,7 @@ namespace Lesson2EFMVC {
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllersWithViews();
 
-            services.AddDbContext<TeamManagmentDBContext>(
+            services.AddDbContext<TeamManagementDBContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 

@@ -12,9 +12,9 @@ namespace Lesson2EFMVC.Controllers
 {
     public class MembersController : Controller
     {
-        private readonly TeamManagmentDBContext _context;
+        private readonly TeamManagementDBContext _context;
 
-        public MembersController(TeamManagmentDBContext context)
+        public MembersController(TeamManagementDBContext context)
         {
             _context = context;
         }
